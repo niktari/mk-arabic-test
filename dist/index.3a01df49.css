@@ -1,4 +1,5 @@
 p {
+  cursor: pointer;
   direction: rtl;
   font-size: 36px;
 }
