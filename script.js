@@ -2,6 +2,7 @@
 import ArabicReshaper from 'arabic-reshaper';
 
 let element = document.getElementById('effect');
+let unicodeVal = document.getElementById('unicode-value');
 let originalString = element.innerText;
 
 console.log(originalString);
@@ -57,5 +58,7 @@ span.onmousemove = function() {
     } else {
         span.innerHTML += 'ـ'
     }
+
+    unicodeVal.innerHTML = unicode;
 }
 })

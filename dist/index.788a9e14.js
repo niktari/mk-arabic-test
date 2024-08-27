@@ -589,6 +589,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _arabicReshaper = require("arabic-reshaper");
 var _arabicReshaperDefault = parcelHelpers.interopDefault(_arabicReshaper);
 let element = document.getElementById("effect");
+let unicodeVal = document.getElementById("unicode-value");
 let originalString = element.innerText;
 console.log(originalString);
 // This can be a plain string. I just want to make sure I am feeding
@@ -651,6 +652,7 @@ spanEffect.forEach((span)=>{
     span.onmousemove = function() {
         if (isolatedUnicodes.includes(unicode)) span.innerHTML += "";
         else span.innerHTML += "\u0640";
+        unicodeVal.innerHTML = unicode;
     };
 });
 
