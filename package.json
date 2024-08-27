@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "arabic-reshaper": "^1.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
