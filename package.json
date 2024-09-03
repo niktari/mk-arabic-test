@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "arabic-reshaper": "^1.1.0"
+    "arabic-reshaper": "^1.1.0",
+    "gh-pages": "^6.1.1"
   },
   "devDependencies": {
     "parcel": "^2.12.0"
